@@ -59,7 +59,7 @@ const menuCategories = [
         shortLabel: 'Gravies',
         items: [
             { name: 'Veg Masala', image: '/images/veg-masala.png' },
-            { name: 'Paneer Masala', image: '/images/kadai-paneer-shot.png' },
+            { name: 'Paneer Masala', image: '/images/paneermasala.png' },
             { name: 'Paneer Butter Masala', image: '/images/paneerbuttermasala.png' },
             { name: 'Ginger Masala', image: '/images/gingermasala.png' },
         ]
@@ -74,13 +74,13 @@ const menuCategories = [
             { name: 'Kadai Mushroom', image: '/images/kadaimushroom.png' },
             { name: 'Mushroom Masala', image: '/images/mushroom-masala.png' },
             { name: 'Mushroom Butter Masala', image: '/images/mushroombutter-masala.png' },
-            { name: 'Mushroom Kaju Masala', image: '/images/muashroomkaju-masala.png' },
+            { name: 'Mushroom Kaju Masala', image: '/images/mushroomkaju-masala.png' },
             { name: 'Gobi 65', image: '/images/gobi-65.png' },
             { name: 'Gobi Pepper Fry', image: '/images/gobipepper.png' },
             { name: 'Veg Manchurian', image: '/images/vegmunchurian.png' },
             { name: 'Paneer Manchurian', image: '/images/paneermunchurian.png' },
             { name: 'Mushroom Manchurian', image: '/images/mushroommunchurian.png' },
-            { name: 'Baby Corn Manchurian', image: '/images/babycornmunchurian.png' },
+            { name: 'Baby Corn Manchurian', image: '/images/babycornmanchurian.png' },
         ]
     },
     {
@@ -92,7 +92,7 @@ const menuCategories = [
             { name: 'Gobi Noodles', image: '/images/gobi-noodles.png' },
             { name: 'Mushroom Noodles', image: '/images/mushroom-noodles.png' },
             { name: 'Paneer Noodles', image: '/images/paneer-noodles.png' },
-            { name: 'Schezwan Veg Noodles', image: '/images/schezwannoodle.png' },
+            { name: 'Schezwan Veg Noodles', image: '/images/SchezwanVeg_Noodles.png' },
             { name: 'Schezwan Mushroom Noodles', image: '/images/schezwannoodle.png' },
             { name: 'Veg Fried Rice', image: '/images/veg-fried-rice.png' },
             { name: 'Gobi Fried Rice', image: '/images/gobi-fried-rice.png' },
