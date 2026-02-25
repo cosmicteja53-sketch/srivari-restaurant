@@ -39,10 +39,9 @@ const Footer = () => {
                     <div>
                         <h4 className="text-cream font-serif text-lg mb-6 tracking-widest uppercase">Contact</h4>
                         <ul className="space-y-4 text-sm text-cream/50">
-                            <li>123 Heritage Lane, Mandaveli</li>
-                            <li>Chennai, Tamil Nadu 600028</li>
-                            <li>Phone: +91 44 2493 0000</li>
-                            <li>Email: info@sreevari.com</li>
+                            <li>Kanipakam Cross, Irala Mandal</li>
+                            <li>Andhra Pradesh</li>
+                            <li>Phone: +91 97042 06118</li>
                         </ul>
                     </div>
 
