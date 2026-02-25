@@ -66,7 +66,7 @@ const Menu = () => {
         <section id="menu" style={{ backgroundColor: '#F5F0E8', padding: '100px 0' }}>
 
             {/* Section Header */}
-            <div style={{ textAlign: 'center', marginBottom: '80px', padding: '0 40px' }}>
+            <div className="section-header" style={{ textAlign: 'center', marginBottom: '80px', padding: '0 40px' }}>
                 <p style={{
                     fontSize: '11px',
                     letterSpacing: '0.3em',
@@ -92,7 +92,7 @@ const Menu = () => {
             {menuItems.map((item, index) => (
                 <div
                     key={item.id}
-                    className="menu-item-grid"
+                    className="menu-item-grid signature-grid-item"
                     style={{
                         display: 'grid',
                         gridTemplateColumns: '1fr 1fr',
@@ -183,6 +183,7 @@ const Menu = () => {
 
             {/* Cold Beverages - Static Item */}
             <div
+                className="signature-grid-item"
                 style={{
                     display: 'grid',
                     gridTemplateColumns: '1fr 1fr',

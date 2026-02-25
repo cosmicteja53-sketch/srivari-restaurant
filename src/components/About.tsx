@@ -23,8 +23,9 @@ const About = () => {
     return (
         <section id="about" className="py-24 md:py-32 bg-dark-bg">
             <div className="container mx-auto px-6 md:px-20">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center about-grid">
                     <motion.div
+                        className="section-header"
                         variants={fadeIn}
                         initial="initial"
                         whileInView="animate"
@@ -61,7 +62,7 @@ const About = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
-                        className="relative w-full h-[300px] md:h-[600px] overflow-hidden rounded-[4px]"
+                        className="about-image-container relative w-full h-[300px] md:h-[600px] overflow-hidden rounded-[4px]"
                     >
                         <div style={{
                             position: 'relative',

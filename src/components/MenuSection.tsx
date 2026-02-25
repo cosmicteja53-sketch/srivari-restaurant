@@ -125,7 +125,7 @@ export default function MenuSection() {
         <section id="menu-grid-section" style={{ backgroundColor: '#F5F0E8', padding: '100px 0' }}>
 
             {/* Section Header */}
-            <div style={{ textAlign: 'center', marginBottom: '60px', padding: '0 24px' }}>
+            <div className="section-header" style={{ textAlign: 'center', marginBottom: '56px', padding: '0 24px' }}>
                 <p style={{
                     fontSize: '11px',
                     letterSpacing: '0.3em',
@@ -151,16 +151,17 @@ export default function MenuSection() {
             {/* Category Tab Bar - horizontally scrollable on mobile */}
             <div
                 ref={scrollRef}
+                className="category-scroll"
                 style={{
                     overflowX: 'auto',
                     overflowY: 'hidden',
                     WebkitOverflowScrolling: 'touch',
                     scrollbarWidth: 'none',
                     msOverflowStyle: 'none',
-                    padding: '0 24px',
-                    marginBottom: '48px',
+                    padding: '0 16px',
+                    marginBottom: '32px',
                     display: 'flex',
-                    justifyContent: 'center'
+                    justifyContent: 'flex-start'
                 }}
             >
                 <div style={{
@@ -203,15 +204,15 @@ export default function MenuSection() {
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={activeCategory}
+                        className="menu-grid"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
                         transition={{ duration: 0.4 }}
-                        className="menu-grid"
                         style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-                            gap: '20px'
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                            gap: '24px'
                         }}
                     >
                         {activeItems.map((item, index) => (

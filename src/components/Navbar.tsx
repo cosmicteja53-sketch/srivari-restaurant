@@ -26,7 +26,7 @@ const Navbar = () => {
 
     return (
         <nav className={`fixed top-0 w-full z-50 bg-cream border-b border-[#C9A84C]/30 py-3 transition-all duration-300 ${isScrolled ? "shadow-lg" : ""}`}>
-            <div className="container mx-auto px-6 md:px-20 flex justify-between items-center">
+            <div className="navbar-container container mx-auto px-6 md:px-20 flex justify-between items-center">
                 {/* Logo Left */}
                 <Link href="/" className="flex flex-col">
                     <div className="flex flex-col">

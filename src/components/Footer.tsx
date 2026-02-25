@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="bg-dark-bg border-t border-gold-accent/10 pt-20 pb-10">
             <div className="container mx-auto px-6 md:px-20">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20 footer-grid">
                     <div className="md:col-span-1">
                         <Link href="/" className="inline-block mb-6">
                             <span className="text-2xl font-serif text-gold-accent luxury-text-spacing font-bold uppercase tracking-[0.2em]">

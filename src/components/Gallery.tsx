@@ -4,10 +4,10 @@ import React from "react";
 
 const Gallery = () => {
     return (
-        <section style={{ backgroundColor: '#0D0D0D', padding: '100px 0 0 0', overflow: 'hidden' }}>
+        <section className="ambience-section" style={{ backgroundColor: '#0D0D0D', padding: '100px 0 0 0', overflow: 'hidden' }}>
 
             {/* Header Row */}
-            <div className="ambience-header" style={{
+            <div className="ambience-header section-header" style={{
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'flex-start',
