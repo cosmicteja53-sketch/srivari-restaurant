@@ -56,6 +56,7 @@ const Gallery = () => {
                 <img
                     src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/shop"
                     alt="Sree Vari Restaurant"
+                    className="shop-image-mobile"
                     style={{
                         width: '100%',
                         height: '100%',

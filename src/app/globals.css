@@ -263,6 +263,16 @@ h6 {
   .section-header h2 {
     font-size: 28px !important;
   }
+
+  .shop-image-mobile {
+    object-position: left center !important;
+  }
+
+  .fridge-image {
+    content: url('/stock/fridge-mobile.png') !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
 }
 
 .category-scroll::-webkit-scrollbar {

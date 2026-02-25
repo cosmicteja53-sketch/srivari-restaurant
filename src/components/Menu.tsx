@@ -197,6 +197,7 @@ const Menu = () => {
                     <img
                         src="/images/coco-cola.png"
                         alt="Cold Beverages"
+                        className="fridge-image"
                         style={{
                             width: '100%',
                             height: '100%',
