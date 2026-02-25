@@ -257,9 +257,10 @@ export default function MenuSection() {
                                 }}>
                                     <p style={{
                                         margin: 0,
-                                        fontFamily: 'Poppins, sans-serif',
-                                        fontSize: '13px',
-                                        fontWeight: '600',
+                                        fontFamily: 'Playfair Display, serif',
+                                        fontSize: '15px',
+                                        fontWeight: '500',
+                                        fontStyle: 'italic',
                                         color: 'white',
                                         lineHeight: 1.3
                                     }}>
