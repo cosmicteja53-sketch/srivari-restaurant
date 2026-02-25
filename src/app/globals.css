@@ -159,4 +159,20 @@ h6 {
   .ambience-top-right {
     display: none !important;
   }
+
+  /* Menu Grid Mobile */
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
+  }
+}
+
+/* Hide scrollbar for all browsers */
+div::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

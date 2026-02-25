@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Menu from "@/components/Menu";
+import MenuSection from "@/components/MenuSection";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <About />
       <Menu />
+      <MenuSection />
       <Gallery />
       <Footer />
     </main>
