@@ -63,7 +63,7 @@ const Menu = () => {
     ];
 
     return (
-        <section id="menu" style={{ backgroundColor: '#F5F0E8', padding: '100px 0' }}>
+        <section id="menu" style={{ backgroundColor: '#F5F0E8', padding: '100px 0 0 0' }}>
 
             {/* Section Header */}
             <div className="section-header" style={{ textAlign: 'center', marginBottom: '80px', padding: '0 40px' }}>
