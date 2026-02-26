@@ -54,14 +54,14 @@ const Gallery = () => {
 
                 {/* Restaurant Image */}
                 <img
-                    src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/shop"
+                    src="/images/vector_image.png"
                     alt="Sree Vari Restaurant"
                     className="shop-image-mobile"
                     style={{
                         width: '100%',
                         height: '100%',
                         objectFit: 'cover',
-                        objectPosition: 'center',
+                        objectPosition: 'center top',
                         display: 'block'
                     }}
                 />

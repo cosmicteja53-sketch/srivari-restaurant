@@ -265,7 +265,9 @@ h6 {
   }
 
   .shop-image-mobile {
-    object-position: left center !important;
+    object-position: center center !important;
+    transform: scale(1.3) !important;
+    transform-origin: center center !important;
   }
 
   .fridge-image {
