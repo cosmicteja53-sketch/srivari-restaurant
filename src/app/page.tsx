@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Menu from "@/components/Menu";
 import MenuSection from "@/components/MenuSection";
+import ChaiBuster from "@/components/ChaiBuster";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Menu />
+      <ChaiBuster />
       <MenuSection />
       <Gallery />
       <Footer />

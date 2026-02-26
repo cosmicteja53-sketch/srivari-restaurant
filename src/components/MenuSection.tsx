@@ -153,22 +153,22 @@ export default function MenuSection() {
                 ref={scrollRef}
                 className="category-scroll"
                 style={{
-                    overflowX: 'auto',
+                    overflowX: 'scroll',
                     overflowY: 'hidden',
                     WebkitOverflowScrolling: 'touch',
                     scrollbarWidth: 'none',
                     msOverflowStyle: 'none',
                     padding: '0 16px',
                     marginBottom: '32px',
-                    display: 'flex',
-                    justifyContent: 'flex-start'
+                    width: '100%',
+                    display: 'block'
                 }}
             >
                 <div style={{
                     display: 'flex',
                     gap: '8px',
                     flexWrap: 'nowrap',
-                    minWidth: 'max-content',
+                    width: 'max-content',
                     padding: '4px 0'
                 }}>
                     {menuCategories.map(cat => (
@@ -211,8 +211,8 @@ export default function MenuSection() {
                         transition={{ duration: 0.4 }}
                         style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-                            gap: '24px'
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
+                            gap: '12px'
                         }}
                     >
                         {activeItems.map((item, index) => (
