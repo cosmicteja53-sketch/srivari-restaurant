@@ -65,7 +65,7 @@ const Navbar = () => {
                             src="/images/chai-buster.png"
                             alt="Chai Buster"
                             style={{
-                                height: '36px',
+                                height: '72px',
                                 width: 'auto',
                                 objectFit: 'contain',
                                 mixBlendMode: 'multiply'

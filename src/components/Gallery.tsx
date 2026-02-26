@@ -4,7 +4,7 @@ import React from "react";
 
 const Gallery = () => {
     return (
-        <section className="ambience-section" style={{ backgroundColor: '#0D0D0D', padding: '100px 0 0 0', overflow: 'hidden' }}>
+        <section className="ambience-section" style={{ backgroundColor: '#000000', padding: '100px 0 0 0', overflow: 'hidden' }}>
 
             {/* Header Row */}
             <div className="ambience-header section-header" style={{
@@ -50,11 +50,11 @@ const Gallery = () => {
             </div>
 
             {/* Full Width Restaurant Photo with overlays */}
-            <div className="ambience-photo w-full" style={{ position: 'relative', overflow: 'hidden', height: '580px' }}>
+            <div className="ambience-photo w-full" style={{ position: 'relative', overflow: 'hidden', height: '460px' }}>
 
                 {/* Restaurant Image */}
                 <img
-                    src="/images/vector_image.png"
+                    src="/images/vector_image2.png"
                     alt="Sree Vari Restaurant"
                     className="shop-image-mobile"
                     style={{
