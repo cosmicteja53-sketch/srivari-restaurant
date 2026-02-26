@@ -13,21 +13,23 @@ const ChaiBuster = () => {
                 {/* Top header section */}
                 <div style={{
                     backgroundColor: '#F5F0E8',
-                    padding: '48px 80px 32px 80px',
+                    padding: '32px 80px 16px 80px',
                     display: 'flex',
                     alignItems: 'center',
-                    justifyContent: 'space-between'
+                    justifyContent: 'space-between',
+                    overflow: 'visible'
                 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
                         <img
                             src="/images/chai-buster.png"
-                            alt="Chai Buster"
+                            alt="Chai Busters"
                             style={{
                                 height: '110px',
                                 width: 'auto',
                                 objectFit: 'contain',
                                 display: 'block',
-                                mixBlendMode: 'multiply'
+                                mixBlendMode: 'multiply',
+                                marginBottom: '-16px'
                             }}
                         />
                         <div style={{
@@ -75,7 +77,7 @@ const ChaiBuster = () => {
 
                     {/* Background Image */}
                     <img
-                        src="/images/all-drinks.jpeg"
+                        src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/all-drinks"
                         alt="Chai Buster Drinks"
                         style={{
                             width: '100%',
@@ -223,7 +225,7 @@ const ChaiBuster = () => {
                 {/* Full width vertical image */}
                 <div style={{ position: 'relative', width: '100%', height: '420px', overflow: 'hidden' }}>
                     <img
-                        src="/images/all-drinks-vertical.png"
+                        src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/all-drinks-vertical"
                         alt="Chai Buster Drinks"
                         style={{
                             width: '100%',

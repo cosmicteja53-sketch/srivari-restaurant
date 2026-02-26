@@ -59,7 +59,7 @@ const GalleryDesktop = () => {
             <div className="ambience-photo w-full relative overflow-hidden h-[520px]">
                 {/* Restaurant Image */}
                 <img
-                    src="/images/updated-shop.png"
+                    src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/updated-shop"
                     alt="Sree Vari Restaurant"
                     className="w-full h-full object-cover block"
                     style={{

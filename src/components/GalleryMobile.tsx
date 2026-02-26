@@ -31,7 +31,7 @@ const GalleryMobile = () => {
             {/* Restaurant Photo Container */}
             <div className="ambience-photo w-full relative overflow-hidden h-auto">
                 <img
-                    src="/images/updated-shop.png"
+                    src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/updated-shop"
                     alt="Sree Vari Restaurant"
                     className="w-[92%] mx-auto h-auto object-contain object-center rounded-xl"
                 />
