@@ -28,7 +28,9 @@ const Navbar = () => {
         <nav className={`fixed top-0 w-full z-50 bg-cream border-b border-[#C9A84C]/30 py-3 transition-all duration-300 ${isScrolled ? "shadow-lg" : ""}`}>
             <div className="navbar-container container mx-auto px-6 md:px-20 flex justify-between items-center">
                 {/* Logo Left */}
-                <Link href="/" className="flex flex-col">
+                <Link href="/" className="flex items-center gap-3">
+
+                    {/* Sree Vari Logo Text */}
                     <div className="flex flex-col">
                         <span style={{
                             fontFamily: 'Playfair Display, serif',
@@ -48,6 +50,27 @@ const Navbar = () => {
                         }}>
                             RESTAURANT
                         </span>
+                    </div>
+
+                    {/* Divider with diamond */}
+                    <div className="flex flex-col items-center gap-1 hidden md:flex">
+                        <div style={{ width: '1px', height: '14px', backgroundColor: '#C9A84C' }} />
+                        <span style={{ color: '#C9A84C', fontSize: '8px' }}>✦</span>
+                        <div style={{ width: '1px', height: '14px', backgroundColor: '#C9A84C' }} />
+                    </div>
+
+                    {/* Chai Buster Banner Image */}
+                    <div className="hidden md:block">
+                        <img
+                            src="/images/chai-buster.png"
+                            alt="Chai Buster"
+                            style={{
+                                height: '36px',
+                                width: 'auto',
+                                objectFit: 'contain',
+                                mixBlendMode: 'multiply'
+                            }}
+                        />
                     </div>
                 </Link>
 
