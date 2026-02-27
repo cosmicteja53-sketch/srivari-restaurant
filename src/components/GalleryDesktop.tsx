@@ -56,7 +56,7 @@ const GalleryDesktop = () => {
             </div>
 
             {/* Full Width Restaurant Photo with overlays */}
-            <div className="relative w-full h-[65vh] overflow-hidden">
+            <div className="relative w-full aspect-[16/7] overflow-hidden">
                 {/* Restaurant Image */}
                 <img
                     src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/updated-shop"
