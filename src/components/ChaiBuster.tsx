@@ -13,7 +13,7 @@ const ChaiBuster = () => {
                 {/* Top header section */}
                 <div style={{
                     backgroundColor: '#F5F0E8',
-                    padding: '32px 80px 16px 80px',
+                    padding: '24px 80px 16px 80px',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between',
@@ -179,7 +179,7 @@ const ChaiBuster = () => {
 
                 {/* Top header on cream surface */}
                 <div style={{
-                    padding: '40px 20px 24px 20px',
+                    padding: '24px 20px 0px 20px',
                 }}>
                     <img
                         src="/images/chai-buster.png"

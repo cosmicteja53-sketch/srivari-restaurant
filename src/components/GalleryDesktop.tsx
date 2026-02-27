@@ -56,15 +56,12 @@ const GalleryDesktop = () => {
             </div>
 
             {/* Full Width Restaurant Photo with overlays */}
-            <div className="ambience-photo w-full relative overflow-hidden h-[520px]">
+            <div className="relative w-full h-[65vh] overflow-hidden">
                 {/* Restaurant Image */}
                 <img
                     src="https://res.cloudinary.com/dzuua38cd/image/upload/srivari-restaurant/updated-shop"
                     alt="Sree Vari Restaurant"
-                    className="w-full h-full object-cover block"
-                    style={{
-                        objectPosition: 'center 35%',
-                    }}
+                    className="w-full h-full object-cover object-center"
                 />
 
                 {/* Premium Gradient Overlay */}
